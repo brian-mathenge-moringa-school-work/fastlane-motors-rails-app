@@ -9,11 +9,11 @@ The API will expose the following RESTful endpoints.
 | Endpoint                | Functionality                |
 |-------------------------|------------------------------|
 | GET /cars               | List all cars                |
-| POST /cars              | Add a new car                |
-| DELETE /cars/:id        | Delete a car                 |
-| PUT /cars/:id           | Update a car                 |
-| POST /favourites        | Add favourite car            |
-| GET /favourites         | Get user favourite cars      |
+| GET /cars/:id           | View a single car            |
+| CREATE /favorites       | Add a favorite car           |
+| DELETE /cars/:id        | Remove a car from favorites  |
+| GET /users              | Fetch a single user          |
+| POST /users             | Create a user                |
 
 ## Technologies Used
 - Ruby on Rails API on the backend
