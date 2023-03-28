@@ -6,4 +6,10 @@ class CarsController < ApplicationController
         render json: cars
     end
 
+    # GET "/cars/:id"
+    def show
+        car = Car.find(params[:id])
+        render json: car
+    end
+
 end
