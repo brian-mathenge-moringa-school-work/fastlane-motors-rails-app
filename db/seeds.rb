@@ -6,6 +6,7 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
+puts "🌱 Seeding spices..."
 
 cars = [
     {
@@ -22,7 +23,7 @@ cars = [
         "engine_size": "3000CC",
         "fuel": "Petrol",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "Audi A7 Sportback",
         "brand": "Audi",
@@ -37,7 +38,7 @@ cars = [
         "engine_size": "2500CC",
         "fuel": "Petrol",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "Audi A7 Quattro S-Line",
         "brand": "Audi",
@@ -52,7 +53,7 @@ cars = [
         "engine_size": "2000CC",
         "fuel": "Petrol",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "Audi Q7",
         "brand": "Audi",
@@ -67,7 +68,7 @@ cars = [
         "engine_size": "3000CC",
         "fuel": "Diesel",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "Audi A6",
         "brand": "Audi",
@@ -82,7 +83,7 @@ cars = [
         "engine_size": "2500CC",
         "fuel": "Petrol",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "Audi A5",
         "brand": "Audi",
@@ -97,7 +98,7 @@ cars = [
         "engine_size": "2000CC",
         "fuel": "Petrol",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "BMW X6 XDrive30D",
         "brand": "BMW",
@@ -112,7 +113,7 @@ cars = [
         "engine_size": "3000CC",
         "fuel": "Diesel",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "BMW X5 XDrive40D M Sport",
         "brand": "BMW",
@@ -127,7 +128,7 @@ cars = [
         "engine_size": "3000CC",
         "fuel": "Diesel",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "BMW M4",
         "brand": "BMW",
@@ -142,7 +143,7 @@ cars = [
         "engine_size": "3000CC",
         "fuel": "Petrol",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "Mercedes GLE350D",
         "brand": "Mercedes Benz",
@@ -157,7 +158,7 @@ cars = [
         "engine_size": "3000CC",
         "fuel": "Diesel",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "Mercedes Benz Maybach S Class",
         "brand": "Mercedes Benz",
@@ -172,7 +173,7 @@ cars = [
         "engine_size": "6000CC",
         "fuel": "Petrol",
         "transmission": "AWD"
-    }
+    },
     {
         "model": "Mercedes GLS63H AMG Night edition",
         "brand": "Mercedes Benz",
@@ -187,7 +188,7 @@ cars = [
         "engine_size": "4000CC",
         "fuel": "Petrol",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "Mercedes E300 Coupe",
         "brand": "Mercedes Benz",
@@ -202,7 +203,7 @@ cars = [
         "engine_size": "3000CC",
         "fuel": "Petrol",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "Mercedes GLS63h V8 Biturbo AMG",
         "brand": "Mercedes Benz",
@@ -217,7 +218,7 @@ cars = [
         "engine_size": "4000CC",
         "fuel": "Petrol",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "Mercedes Benz AMG G63",
         "brand": "Mercedes Benz",
@@ -232,7 +233,7 @@ cars = [
         "engine_size": "4000CC",
         "fuel": "Petrol",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "Mercedes GLE 350d",
         "brand": "Mercedes Benz",
@@ -247,7 +248,7 @@ cars = [
         "engine_size": "3000CC",
         "fuel": "Diesel",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "Mazda CX5",
         "brand": "Mazda",
@@ -262,7 +263,7 @@ cars = [
         "engine_size": "2200CC",
         "fuel": "Diesel",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "Toyota Hilux Double Cab GR Sport Facelift",
         "brand": "Toyota",
@@ -277,7 +278,7 @@ cars = [
         "engine_size": "2500CC",
         "fuel": "Diesel",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "Toyota Fortuner",
         "brand": "Toyota",
@@ -292,7 +293,7 @@ cars = [
         "engine_size": "2800CC",
         "fuel": "Diesel",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "Toyota RAV4",
         "brand": "Toyota",
@@ -307,7 +308,7 @@ cars = [
         "engine_size": "2500CC",
         "fuel": "Petrol",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "Toyota Prado TZG",
         "brand": "Toyota",
@@ -322,7 +323,7 @@ cars = [
         "engine_size": "3000CC",
         "fuel": "Diesel",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "Lexus LX600",
         "brand": "Lexus",
@@ -337,7 +338,7 @@ cars = [
         "engine_size": "3500CC",
         "fuel": "Petrol",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "LX 600",
         "brand": "Lexus",
@@ -352,7 +353,7 @@ cars = [
         "engine_size": "3500CC",
         "fuel": "Diesel",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "Lexus 450D",
         "brand": "Lexus",
@@ -367,7 +368,7 @@ cars = [
         "engine_size": "4500CC",
         "fuel": "Diesel",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "Volkswagen Toureg R-Line",
         "brand": "Volkswagen",
@@ -382,12 +383,12 @@ cars = [
         "engine_size": "3000CC",
         "fuel": "Diesel",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "Volkswagen Golf R",
         "brand": "Volkswagen",
         "image": "https://dashboard.kaiandkaro.com/media/vehicles/images/C94CD06D-425E-4833-8B7C-FB71B048144A.jpeg",
-        "description": "Volkswagen's deadly EA888 third gen engine paired with a haldex awd and twinclutch drivetrain make the "Golf R" one of the fastest hatchbacks available for purchase in Kenya today.",
+        "description": "Volkswagen's deadly EA888 third gen engine paired with a haldex awd and twinclutch drivetrain make the Golf R one of the fastest hatchbacks available for purchase in Kenya today.",
         "price": 4500000,
         "year_of_manufacture": 2017,
         "source_country": "United Kingdom🇬🇧",
@@ -397,7 +398,7 @@ cars = [
         "engine_size": "2500CC",
         "fuel": "Petrol",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "Nissan GTR",
         "brand": "Nissan",
@@ -412,7 +413,7 @@ cars = [
         "engine_size": "3800CC",
         "fuel": "Petrol",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "Range Rover Vogue SV P530",
         "brand": "Land Rover",
@@ -427,7 +428,7 @@ cars = [
         "engine_size": "4400CC",
         "fuel": "Petrol",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "Rolls Royce Cullinan 6.8 V12",
         "brand": "Rolls Royce",
@@ -442,7 +443,7 @@ cars = [
         "engine_size": "6800CC",
         "fuel": "Petrol",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "Rolls Royce Cullinan 6.8 V12 ONYX",
         "brand": "Rolls Royce",
@@ -457,7 +458,7 @@ cars = [
         "engine_size": "6800CC",
         "fuel": "Petrol",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "Range Rover Vogue HSE",
         "brand": "Land Rover",
@@ -472,7 +473,7 @@ cars = [
         "engine_size": "3000CC",
         "fuel": "Diesel",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "Volvo XC90 T5 4WD",
         "brand": "Volvo",
@@ -487,7 +488,7 @@ cars = [
         "engine_size": "2500CC",
         "fuel": "Petrol",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "Volvo XC90 T6 AWD R-Design",
         "brand": "Volvo",
@@ -502,7 +503,7 @@ cars = [
         "engine_size": "2500CC",
         "fuel": "Petrol",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "LandRover Discovery V HSE",
         "brand": "Land Rover",
@@ -517,7 +518,7 @@ cars = [
         "engine_size": "3000CC",
         "fuel": "Diesel",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "Range Rover Vogue",
         "brand": "Land Rover",
@@ -532,7 +533,7 @@ cars = [
         "engine_size": "3000CC",
         "fuel": "Diesel",
         "transmission": "Automatic"
-    }
+    },
     {
         "model": "Porsche Cayenne Plutinum TDV6",
         "brand": "Porsche",
@@ -558,3 +559,5 @@ user2 = User.create(email: "test2@email.com", name: "testuser2", password: "abcu
 user3 = User.create(email: "test3@email.com", name: "testuser3", password: "abcuser3", phone: "123456003")
 user4 = User.create(email: "test4@email.com", name: "testuser4", password: "abcuser4", phone: "123456004")
 user5 = User.create(email: "test5@email.com", name: "testuser5", password: "abcuser5", phone: "123456005")
+
+puts "✅ Done seeding!"
