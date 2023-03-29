@@ -16,7 +16,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_28_071413) do
     t.string "brand"
     t.string "image"
     t.string "description"
-    t.integer "price"
+    t.string "price"
     t.integer "year_of_manufacture"
     t.string "source_country"
     t.string "availability"

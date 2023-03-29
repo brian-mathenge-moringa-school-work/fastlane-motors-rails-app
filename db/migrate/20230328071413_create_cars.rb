@@ -5,7 +5,7 @@ class CreateCars < ActiveRecord::Migration[7.0]
       t.string :brand
       t.string :image
       t.string :description
-      t.integer :price
+      t.string :price
       t.integer :year_of_manufacture
       t.string :source_country
       t.string :availability
