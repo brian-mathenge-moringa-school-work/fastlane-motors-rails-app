@@ -23,8 +23,8 @@ test:
 production:
   adapter: postgresql
   database: 'railway'
-  username: '6377'
-  password: 'JPkinPwXw5ryAL9DLESb'
-  host: 'containers-us-west-200.railway.app'
-  port: 'postgres'
+  username: 'postgres'
+  password: '5qaqI4GSZBk5XFdnpo93'
+  host: 'containers-us-west-158.railway.app'
+  port: '6740'
   pool: 5
