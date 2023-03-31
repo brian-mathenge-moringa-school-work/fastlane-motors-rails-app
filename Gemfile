@@ -31,7 +31,7 @@ end
 
 group :production do
   gem 'pg', '~> 1.4', '>= 1.4.6' # postgres gem
-  gem 'puma', '~> 6.2', '>= 6.2.1'
+  # gem 'puma', '~> 6.2', '>= 6.2.1'
 
 end
 
