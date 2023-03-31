@@ -1,3 +1,5 @@
+# port ENV['PORT'] ||= 'production'
+
 # Load the Rails application.
 require_relative "application"
 

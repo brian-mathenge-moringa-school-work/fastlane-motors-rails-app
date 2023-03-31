@@ -21,5 +21,10 @@ test:
   database: db/test.sqlite3
 
 production:
-  <<: *default
-  database: db/production.sqlite3
+  adapter: postgresql
+  database: 'railway'
+  username: '6377'
+  password: 'JPkinPwXw5ryAL9DLESb'
+  host: 'containers-us-west-200.railway.app'
+  port: 'postgres'
+  pool: 5
